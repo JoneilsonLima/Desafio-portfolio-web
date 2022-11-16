@@ -160,7 +160,7 @@ video {
 
     .video {
         min-width: 100%;
-        height: 150px;
+        height: 160px;
     }
 
     .modal-container {
@@ -183,5 +183,6 @@ video {
         padding-top: 260px;
     }
 }
+
 
 
