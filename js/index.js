@@ -15,7 +15,6 @@ function initModal() {
     function linkOpenModal() {
         modalContainer.classList.add('hidden');
     }
-
     openModal.addEventListener('click', linkOpenModal);
 
 
