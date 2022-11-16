@@ -102,6 +102,10 @@ header{
 
 /****** Menu mobile ********/
 
+.active-link-mobile {
+    text-decoration: underline;
+}
+
 .menu-none {
     display: none;
 }
