@@ -13,9 +13,9 @@
 
 <body>
 
-  <!-- header -->
+  <!---------  INÍCIO HEADER ---------->
   <header class="header-container">
-    <div class="header-content">
+    <nav class="header-content">
       <div class="logo">
         <h1>Joneilson Pereira</h1>
         <span>/ DEV FRONT-END</span>
@@ -26,15 +26,28 @@
         <li><a href="projetos.html">PROJETOS</a></li>
         <li><a href="#">CONTATO</a></li>
       </ul>
-      <div class="menu-mobile">
-        <img src="/img/ícones/menu.svg" alt="">
+      <div class="menu-mobile-icon">
+        <button class="icon-open">
+          <img src="/img/ícones/menu.svg" alt="">
+        </button>
+        <button class="menu-closed">
+          <img src="/img/ícones/close.svg" alt="">
+        </button>
       </div>
+    </nav>
+
+    <div class="mobile-menu">
+      <ul>
+        <li><a class="active-link" href="index.html">SOBRE MIM</a></li>
+        <li><a href="curriculo.html">CURRICULO</a></li>
+        <li><a href="projetos.html">PROJETOS</a></li>
+        <li><a href="#">CONTATO</a></li>
+      </ul>
     </div>
   </header>
+  <!---------  FIM HEADER ---------->
 
-  <!-- Fim header -->
-
-  <!-- curriculo  -->
+  <!---------  INÍCIO CURRÍCULO ---------->
   <section class="curriculo-container">
     <div class="curriculo-content">
       <h1>Currículo</h1>
@@ -100,10 +113,9 @@
       </div>
     </div>
   </section>
-  <!-- Fim curriculo  -->
+  <!---------  FIM CURRÍCULO ---------->
 
-  <!-- Footer -->
-
+  <!---------  INÍCIO FOOTER ---------->
   <footer class="footer-container">
     <div class="footer-content">
       <div class="copy">
@@ -124,14 +136,16 @@
         <div class="footer-contatos">
           <p>Redes Sociais</p>
           <div class="footer-links">
-            <a href="https://www.linkedin.com/in/joneilson-pereira-92b378161/" target="_blank"><img src="/img/ícones/icon-social/icon-linkedin-.svg" alt="ícone do Linkedin"></a>
-            <a href="https://github.com/joneilsonlima" target="_blank"><img src="/img/ícones/icon-social/Github_icon-.svg" alt="ícone do Github"></a>
+            <a href="https://www.linkedin.com/in/joneilson-pereira-92b378161/" target="_blank"><img
+                src="/img/ícones/icon-social/icon-linkedin-.svg" alt="ícone do Linkedin"></a>
+            <a href="https://github.com/joneilsonlima" target="_blank"><img
+                src="/img/ícones/icon-social/Github_icon-.svg" alt="ícone do Github"></a>
           </div>
         </div>
       </div>
     </div>
   </footer>
-  <!-- Fim Footer -->
+  <!---------  FIM FOOTER ---------->
 
   <script src="js/index.js"></script>
 </body>

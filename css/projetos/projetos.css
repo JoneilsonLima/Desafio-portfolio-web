@@ -217,6 +217,10 @@
 }
 
 @media (max-width: 500px) {
+    .projetos-container {
+        height: 1900px;
+    }
+
     .projetos-content {
         max-width: 350px;
     }
@@ -233,7 +237,7 @@
 
 @media (max-width: 400px) {
     .projetos-container {
-        height: 2000px;
+        height: 2050px;
     }
 
     .bg-projeto {
