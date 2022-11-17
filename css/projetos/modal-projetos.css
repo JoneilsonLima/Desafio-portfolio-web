@@ -181,7 +181,8 @@ video {
         font-size: 1.2em;
     }
 
-    .info-modal p {
+    .info-modal p,
+    .info-modal li {
         font-size: .7em;
     } 
 
