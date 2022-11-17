@@ -56,6 +56,12 @@ video {
     padding-left: 30px;
 }
 
+.info-modal li {
+    list-style: outside;
+    color: white;
+    margin-left: 20px;
+}
+
 .info-modal h2 {
     font-size: 2em;
     color: var(--tertiary-color);
@@ -190,3 +196,6 @@ video {
 
 
 
+.display-flex-modal {
+    display: flex;
+}
