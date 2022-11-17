@@ -198,18 +198,18 @@
 
 @media (max-width: 500px) {
     .habilidade {
-        height: 120px;
+        height: 110px;
         width: 100px;
         font-size: .5em;
     }
 
     .lista-habilidades li:hover {
-        height: 122px;
+        height: 112px;
         width: 102px;
     }
     
     .habilidade img {
-        padding-bottom: 8px;
+        padding-bottom: 0px;
     }
 
 }
