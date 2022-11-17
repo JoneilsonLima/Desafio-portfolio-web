@@ -27,7 +27,7 @@ Você pode acessar o projeto <a href="https://willowy-pika-01d7b7.netlify.app/" 
 
 ## 🔖 about
 
-Site responsivo pessoal com meu portfólio de tecnologia. Feito puramente com HTML, CSS e Javascript. Esse portfólio é uma prévia de alguns dos meus projetos.
+Site responsivo pessoal feito puramente com HTML, CSS e Javascript. Esse portfólio é uma prévia de alguns dos meus projetos.
 
 ## 🚀 technologies-and-tools
 
