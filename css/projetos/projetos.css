@@ -114,10 +114,6 @@
     border-radius: 0 8px 8px;
 }
 
-.bg-projeto:hover {
-    box-shadow: -12px 12px 12px rgb(0, 0, 0, .6);
-}
-
 .bg-projeto  {
     height: 100%;
     background: url('/img/joetech.png');
@@ -129,9 +125,30 @@
     transition: .3s;
 }
 
+.bg-projeto {
+    animation: animaProjeto 1s ease infinite alternate;
+}
+
+@keyframes animaProjeto {
+    0% {
+        transform: translateY(-7px);
+        box-shadow: -12px 12px 12px rgb(0, 0, 0, .7);
+
+    }
+    100% {
+        transform: translateY(0px);
+
+    }
+}
+
+.bg-projeto:hover {
+    box-shadow: -12px 12px 12px rgb(0, 0, 0, .6);
+    animation: none;
+    cursor: pointer;
+}
+
 .bg-art-projeto {
     background: url('/img/art-bootstrap5.png');
-    background-size: cover;
 }
 
 .bg-Wildbeast-projeto {
