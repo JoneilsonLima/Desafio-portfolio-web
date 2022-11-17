@@ -54,7 +54,6 @@
     padding-top: 100px;
 }
 
-
 /* informação-experiencia */ 
 
 .informação-experiencia h4 {
@@ -122,16 +121,12 @@
     font-size: .6em;
 }
 
-
-
 .habilidade img {
     width: 50%;
     display: block;
     margin: 20px auto;
     padding-bottom: 33px;
 }
-
-
 
 /** MEDIA ***/
 

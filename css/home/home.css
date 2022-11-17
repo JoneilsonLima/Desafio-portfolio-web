@@ -15,7 +15,6 @@
     margin-bottom: 125px;
 }
 
-
 .main-content {
     width: 85%;
     height: 650px;
@@ -138,8 +137,6 @@
     border: 2px solid var(--tertiary-color);
     padding: 10px 14px;
 }
-
-
 
 @media (max-width: 1000px) {
     .profile-links::after {
