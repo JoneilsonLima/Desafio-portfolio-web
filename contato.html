@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio - Joneilson Pereira</title>
+    <!-- Estilo css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!---------  INÍCIO HEADER ---------->
+    <header class="header-container">
+        <nav class="header-content">
+            <div class="logo">
+                <h1>Joneilson Pereira</h1>
+                <span>/ DEV FRONT-END</span>
+            </div>
+            <ul class="nav-header">
+                <li><a href="index.html">SOBRE MIM</a></li>
+                <li><a href="curriculo.html">CURRICULO</a></li>
+                <li><a href="projetos.html">PROJETOS</a></li>
+                <li><a class="active-link" href="#">CONTATO</a></li>
+            </ul>
+            <div class="menu-mobile-icon">
+                <button class="icon-open">
+                    <img src="/img/ícones/menu.svg" alt="">
+                </button>
+                <button class="menu-closed">
+                    <img src="/img/ícones/close.svg" alt="">
+                </button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="index.html">SOBRE MIM</a></li>
+                <li><a href="curriculo.html">CURRICULO</a></li>
+                <li><a class="active-link-mobile" href="projetos.html">PROJETOS</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!---------  FIM HEADER ---------->
+
+    <!---------  INÍCIO FORMULÁRIO ---------->
+    <section class="formulario-container">
+        <div class="formulario-content">
+            <h1>Contato</h1>    
+            <form class="formulario" action="">
+                <div class="flex-form">
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div>
+                        <label for="Sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                </div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="7"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <!---------  FIM FORMULÁRIO ---------->
+
+
+    <!---------  INÍCIO FOOTER ---------->
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="copy">
+                <P>&copy; 2022</p>
+                <p>De Joneilson Pereira.</p>
+                <p>Todos os direitos reservados.</p>
+            </div>
+
+            <div class="footer-social">
+                <div class="footer-contatos">
+                    <p>Email</p>
+                    <p>joneilson84@gmail.com</p>
+                </div>
+                <div class="footer-contatos">
+                    <p>Celular</p>
+                    <p>(98) 9 96198166</p>
+                </div>
+                <div class="footer-contatos">
+                    <p>Redes Sociais</p>
+                    <div class="footer-links">
+                        <a href="https://www.linkedin.com/in/joneilson-pereira-92b378161/" target="_blank"><img
+                                src="/img/ícones/icon-social/icon-linkedin-.svg" alt="ícone do Linkedin"></a>
+                        <a href="https://github.com/joneilsonlima" target="_blank"><img
+                                src="/img/ícones/icon-social/Github_icon-.svg" alt="ícone do Github"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---------  FIM FOOTER ---------->
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
