@@ -96,7 +96,7 @@ textarea {
 /** Media formulário **/
 @media (max-width: 800px) {
     .formulario {
-        width: 80%;
+        width: 85%;
     }
 
     .flex-form {
@@ -109,7 +109,7 @@ textarea {
 /** Área de links para contato **/
 
 .contatos-formulario {
-    widows: 100%;
+    width: 100%;
     margin-top: 100px;
     background: #FFFFFF;
     padding: 30px;
