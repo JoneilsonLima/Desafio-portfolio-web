@@ -2,7 +2,7 @@
 .formulario-container {
     width: 100%;
     background: var(--primary-color);
-    padding: 100px 0;
+    padding: 100px 20px;
 }
 
 .formulario-content {
@@ -42,21 +42,21 @@
 label,
 input,
 textarea,
-button {
+.formulario button {
     display: block;
     border: none;
 }
 
 input,
 textarea,
-button {
+.formulario button {
     width: 100%;
     font: inherit;
     padding: 1.25rem;
     font-weight: 700;
 }
 
-button {
+.formulario button {
     background: var(--tertiary-color);
     border-radius: 30px;
     cursor: pointer;
@@ -65,7 +65,7 @@ button {
     padding: 12px 14px;
 }
 
-button:hover {
+.formulario button:hover {
     color: var(--tertiary-color);
     background: #FFFFFF;
     border: 2px solid var(--tertiary-color);
@@ -102,4 +102,70 @@ textarea {
     .flex-form {
         flex-direction: column;
     }
+}
+
+
+
+/** Área de links para contato **/
+
+.contatos-formulario {
+    widows: 100%;
+    margin-top: 100px;
+    background: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 9px;
+}
+
+.contatos-formulario a {
+    color: #000000;
+}
+
+.contatos-formulario h1 {
+    padding-bottom: 30px;
+    display: inline-block;
+    border-bottom: 2px solid #e4e4e4;
+}
+
+.contatos-formulario span {
+    font-size: .8em;
+}
+
+.contatos-formulario img {
+    width: 30%;
+}
+
+.contatos-formulario ul {
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contatos-formulario li {
+    width: 150px;
+    height: 150px;
+}
+
+
+@media(max-width: 600px) {
+    .contatos-formulario li {
+        width: 50%;
+    }
+
+    .contatos-formulario {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+    .contatos-formulario ul {
+        gap: 10px;
+    }
+
+    .formulario-container {
+        padding: 100px 0;
+    }
+    
 }
