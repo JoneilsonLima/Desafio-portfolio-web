@@ -30,6 +30,7 @@
     padding: 30px;
     background: var(--secondary-color);
     border-radius: 10px;
+    box-shadow: -10px 10px 12px rgb(0,0,0,.3);
 }
 
 .flex-video {
