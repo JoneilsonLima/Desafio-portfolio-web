@@ -46,6 +46,7 @@
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    box-shadow: -10px 10px 10px rgb(0,0,0,.3);
 }
 
 /* Experiência */
@@ -113,6 +114,7 @@
     background: #FFFFFF;
     text-align: center;
     font-size: .6em;
+    box-shadow: -10px 10px 10px rgb(0,0,0,.3);
 }
 
 .habilidade img {
