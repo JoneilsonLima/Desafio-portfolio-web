@@ -1,5 +1,5 @@
 .projetos-container {
-    background: #351031;
+    background: var(--primary-color);
     padding: 100px 30px 0 30px;
     height: 2150px;
 }
