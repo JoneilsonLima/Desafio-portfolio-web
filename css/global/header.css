@@ -32,8 +32,6 @@ header{
         padding: 32px 40px 80px 60px;
         font-size: .9em;
     }
-
-
 }
 
 .logo span {
@@ -75,7 +73,6 @@ header{
     color: var(--tertiary-color);
 }
 
-
 .nav-header a::after {
     content: '';
     display: block;
@@ -101,7 +98,6 @@ header{
 }
 
 /****** Menu mobile ********/
-
 .active-link-mobile {
     text-decoration: underline;
 }

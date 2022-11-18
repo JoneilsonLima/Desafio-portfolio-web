@@ -97,7 +97,6 @@ video {
     cursor: pointer;
 }
 
-
 .modal-link a {
     color: #FFFFFF;
     font-weight: bold;
@@ -109,15 +108,12 @@ video {
     margin: 20px 30px 0 0;
 }
 
-
 /** js modal **/
-
 .hidden {
     display: flex;
 }
 
 /** Media Modal **/
-
 @media (max-width: 1200px) {
     .video {
         min-width: 400px;
@@ -200,8 +196,6 @@ video {
         padding-top: 260px;
     }
 }
-
-
 
 .display-flex-modal {
     display: flex;

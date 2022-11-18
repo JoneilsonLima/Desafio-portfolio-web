@@ -21,7 +21,6 @@ function initMenuMobile() {
         iconClosed.classList.remove('menu-block')
     })
 }
-
 initMenuMobile();
 
 /**** Modal Projeto 1 ****/
@@ -51,8 +50,7 @@ function openProjeto2() {
 }
 linkProjeto2.addEventListener('click', openProjeto2);
 
-
-/**** Modal Projeto 2 ****/
+/**** Modal Projeto 3 ****/
 const linkProjeto3 = document.querySelector('.link-projeto3');
 const projeto3 = document.querySelector('.projeto3');
 
@@ -63,7 +61,6 @@ function openProjeto3() {
         projeto3.classList.remove('display-flex-modal')
     })
 }
-
 linkProjeto3.addEventListener('click', openProjeto3);
 
 

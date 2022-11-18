@@ -49,7 +49,6 @@
 }
 
 /*** Media ****/
-
 @media (max-width: 1000px) {
     .footer-content {
         flex-direction: column-reverse;

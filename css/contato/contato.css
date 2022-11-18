@@ -9,8 +9,8 @@
     max-width: 700px;
     margin: 0 auto;
 }
-/* FIM contato formatação geral */
 
+/* FIM contato formatação geral */
 .formulario-content h1 {
     color: #FFFFFF;
     text-align: center;
@@ -28,13 +28,11 @@
     background: var(--tertiary-color);
 }
 
-
 /* formulário */
-
 .formulario {
     margin: 0 auto;
     width: 100%;
-    padding: 30px;
+    padding: 60px;
     background: #FFFFFF;
     border-radius: 9px;
 }
@@ -45,6 +43,11 @@ textarea,
 .formulario button {
     display: block;
     border: none;
+}
+
+textarea {
+    min-height: 9rem;
+    resize: none;
 }
 
 input,
@@ -74,17 +77,23 @@ textarea,
 
 input,
 textarea {
-    border-bottom: 2px solid #bdbdbd;
+    border-bottom: 2px solid #919191;
+    margin-bottom: 3rem;
+}
+
+label[for="nome"]::after,
+label[for="sobrenome"]::after,
+label[for="email"]::after {
+    content: ' *';
+    color: var(--tertiary-color);
 }
 
 input:hover,
-textarea:hover {
+input:focus,
+textarea:hover,
+textarea:focus {
+    outline: none;
     border-color: var(--tertiary-color);
-}
-
-input,
-textarea {
-    margin-bottom: 3rem;
 }
 
 .flex-form {
@@ -92,11 +101,11 @@ textarea {
     justify-content: space-between;
 }
 
-
 /** Media formulário **/
 @media (max-width: 800px) {
     .formulario {
         width: 85%;
+        padding: 30px;
     }
 
     .flex-form {
@@ -104,10 +113,7 @@ textarea {
     }
 }
 
-
-
 /** Área de links para contato **/
-
 .contatos-formulario {
     width: 100%;
     margin-top: 100px;
@@ -150,7 +156,6 @@ textarea {
     transition: .3s;
 }
 
-
 .contatos-formulario li:hover {
     box-shadow: -3px 3px 3px rgb(0,0,0,.2);
 }
@@ -171,6 +176,5 @@ textarea {
 
     .formulario-container {
         padding: 100px 0;
-    }
-    
+    } 
 }
