@@ -1,12 +1,11 @@
 .projetos-container {
     background: var(--primary-color);
-    padding: 100px 30px 0 30px;
-    height: 2150px;
+    padding: 100px 30px 90px 30px;
+    width: 100%;
 }
 
 .projetos-content {
     max-width: 900px;
-    height: 400px;
     margin: 0 auto;
 }
 
@@ -163,10 +162,6 @@
 
 
 @media (max-width: 1000px) {
-    .projetos-container {
-        height: 3200px;
-    }
-
     .info-projetos {
         display: block;
     }
@@ -211,10 +206,6 @@
         margin-top: 0px;
     }
 
-    .projetos-container {
-        height: 2650px;
-    }
-
     .projetos-content {
         max-width: 400px;
     }    
@@ -242,10 +233,6 @@
 }
 
 @media (max-width: 500px) {
-    .projetos-container {
-        height: 2650px;
-    }
-
     .projetos-content {
         max-width: 350px;
     }
@@ -261,10 +248,6 @@
 }
 
 @media (max-width: 400px) {
-    .projetos-container {
-        height: 2850px;
-    }
-
     .bg-projeto {
         margin: -40px -40px 0 10px;
     }
