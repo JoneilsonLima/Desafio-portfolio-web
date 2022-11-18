@@ -55,6 +55,12 @@ video {
     padding-left: 30px;
 }
 
+.info-modal p,
+.info-modal li,
+.info-modal span {
+    font-size: .9em;
+}
+
 .info-modal li {
     list-style: outside;
     color: white;
