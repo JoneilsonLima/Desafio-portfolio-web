@@ -12,7 +12,7 @@
     display: none;
     backdrop-filter: blur(2px);
     z-index: 2000;
-    animation: animaModal .5s ease-in;
+    animation: animaModal .3s ease-in;
 }
 
 @keyframes animaModal {
@@ -31,6 +31,16 @@
     background: var(--secondary-color);
     border-radius: 10px;
     box-shadow: -10px 10px 12px rgb(0,0,0,.3);
+    animation: animaModalContent .3s ease-in;
+}
+
+@keyframes animaModalContent {
+    0% {
+        transform: translatey(-40px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
 }
 
 .flex-video {
@@ -64,8 +74,17 @@ video {
 
 .info-modal li {
     list-style: outside;
-    color: white;
     margin-left: 20px;
+    color: white;
+}
+
+.info-modal li:hover,
+.info-modal li:hover a {
+    color: var(--tertiary-color);
+}
+
+.info-modal li a {
+    color: white;
 }
 
 .info-modal h2 {

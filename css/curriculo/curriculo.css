@@ -139,6 +139,7 @@
     .experiencia-content {
         grid-template-columns: 1fr;
         height: 100%;
+        padding-top: 0;
     }
 
     .curriculo-content {
@@ -151,9 +152,6 @@
         margin-top: 10px;
     }
 
-    .experiencia-content {
-        padding-top: 0;
-    }
     .informação-experiencia {
         margin-top: 30px;
     }

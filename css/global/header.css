@@ -157,13 +157,13 @@ header {
     border-radius: 8px;
     position: absolute;
     right: 30px;
-    animation: anima-menu .3s ease-in;
+    animation: anima-menu .2s ease-in;
     box-shadow: -3px 3px 3px rgb(0, 0, 0, .4);
 }
 
 @keyframes anima-menu {
     0% {
-        transform: translateY(-20px);
+        transform: translateY(-30px);
         opacity: 0;
     }
     100% {
@@ -175,6 +175,33 @@ header {
 .mobile-menu ul {
     display: flex;
     flex-direction: column;
+}
+
+.mobile-menu ul .link1 {
+    animation: anima-menu-mobile .3s ease-in;
+} 
+
+.mobile-menu ul .link2 {
+    animation: anima-menu-mobile .4s ease-in;
+} 
+
+.mobile-menu ul .link3 {
+    animation: anima-menu-mobile .5s ease-in;
+} 
+
+.mobile-menu ul .link4 {
+    animation: anima-menu-mobile .6s ease-in;
+} 
+
+@keyframes anima-menu-mobile {
+    0% {
+        transform: translatex(-30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translatex(0);
+        opacity: 1;
+    }
 }
 
 .mobile-menu a {

@@ -62,6 +62,3 @@ function openProjeto3() {
     })
 }
 linkProjeto3.addEventListener('click', openProjeto3);
-
-
-
