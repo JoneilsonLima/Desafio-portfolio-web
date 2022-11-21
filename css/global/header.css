@@ -195,7 +195,7 @@ header {
 
 @keyframes anima-menu-mobile {
     0% {
-        transform: translatex(-30px);
+        transform: translatex(-60px);
         opacity: 0;
     }
     100% {
