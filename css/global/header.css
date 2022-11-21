@@ -163,7 +163,7 @@ header {
 
 @keyframes anima-menu {
     0% {
-        transform: translateY(-30px);
+        transform: translateY(-40px);
         opacity: 0;
     }
     100% {
@@ -195,7 +195,7 @@ header {
 
 @keyframes anima-menu-mobile {
     0% {
-        transform: translatex(-60px);
+        transform: translatex(-70px);
         opacity: 0;
     }
     100% {
