@@ -1,35 +1,66 @@
-const menuIcon = document.querySelector('.menu-mobile-icon')
-const menuOpen = document.querySelector('.mobile-menu');
-const iconOpen = document.querySelector('.icon-open');
-const iconClosed = document.querySelector('.menu-closed');
-
-/** Função do menu mobile **/
-function initMenuMobile() {
-    function toggleMenu() {
-        menuOpen.classList.toggle('menu-ativo')
-    }
-
-    menuIcon.addEventListener('click', toggleMenu);
-
-    iconOpen.addEventListener('click', () => {
-        iconOpen.classList.toggle('menu-none')
-        iconClosed.classList.toggle('menu-block')
-    })
-
-    iconClosed.addEventListener('click', () => {
-        iconOpen.classList.remove('menu-none')
-        iconClosed.classList.remove('menu-block')
-    })
-}
-initMenuMobile();
+import initMenuMobile from './modules/initMenuMobile.js';
+import initModal from './modules/initModal.js';
 
 
-/**** Início Modal *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
 const bodyProjetos = document.querySelector('body');
 
 if (bodyProjetos.classList.contains('body-projetos-modal')) {
     function initModal() {
-        /**** Modal Projeto 1 ****/
+
         const linkProjeto1 = document.querySelector('.link-projeto1');
         const projeto1 = document.querySelector('.projeto1');
         const closedModal = document.querySelectorAll('.closed-modal');
@@ -43,7 +74,7 @@ if (bodyProjetos.classList.contains('body-projetos-modal')) {
         }
         linkProjeto1.addEventListener('click', openProjeto1);
 
-        /**** Modal Projeto 2 ****/
+
         const linkProjeto2 = document.querySelector('.link-projeto2');
         const projeto2 = document.querySelector('.projeto2');
 
@@ -56,7 +87,7 @@ if (bodyProjetos.classList.contains('body-projetos-modal')) {
         }
         linkProjeto2.addEventListener('click', openProjeto2);
 
-        /**** Modal Projeto 3 ****/
+
         const linkProjeto3 = document.querySelector('.link-projeto3');
         const projeto3 = document.querySelector('.projeto3');
 
@@ -69,7 +100,7 @@ if (bodyProjetos.classList.contains('body-projetos-modal')) {
         }
         linkProjeto3.addEventListener('click', openProjeto3);
 
-        /**** Modal Projeto 4 ****/
+
         const linkProjeto4 = document.querySelector('.link-projeto4');
         const projeto4 = document.querySelector('.projeto4');
 
@@ -85,3 +116,4 @@ if (bodyProjetos.classList.contains('body-projetos-modal')) {
     initModal();
 }
 
+***/
