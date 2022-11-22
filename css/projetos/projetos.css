@@ -148,6 +148,11 @@
     background-size: cover;
 }
 
+.bg-animais-projeto {
+    background: url('/img/animais-fantásticos-bg.png');
+    background-size: cover;
+}
+
 @media (max-width: 1000px) {
     .info-projetos {
         display: block;
