@@ -11,7 +11,7 @@ Meu novo portfólio web. AINDA EM FASE DE DESENVOLVIMENTO!
 
 Você pode acessar o projeto <a href="https://willowy-pika-01d7b7.netlify.app/" target="_blank">clicando aqui:</a>
 
-<h1>Uma prévia do que temos aqui🙈:</h1>
+<h1>Uma prévia do que temos aqui:</h1>
 
 <h2>Pagina inicial:</h2>
 
