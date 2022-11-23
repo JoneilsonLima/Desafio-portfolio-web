@@ -112,7 +112,6 @@
 
 .lista-habilidades ul:has(li:hover) li:not(:hover) {
     opacity: .6;
-    transition: .2s;
     scale: .98;
 }
 
