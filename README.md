@@ -15,7 +15,7 @@ Você pode acessar o projeto <a href="https://willowy-pika-01d7b7.netlify.app/" 
 
 <h2>Pagina inicial:</h2>
 
-![new home](https://user-images.githubusercontent.com/73480168/203646187-ec2ca78e-794b-4fbd-a06d-914dbf9c08d8.png)
+![screencapture-home](https://user-images.githubusercontent.com/73480168/203664815-2f05f08b-e534-435e-8b7e-c1d693fe524e.png)
 
 <h2>Pagina de projetos:</h2>
 
