@@ -7,15 +7,13 @@
   </p>
 </h3>
 
-Meu novo portfólio web. AINDA EM FASE DE DESENVOLVIMENTO!
-
 Você pode acessar o projeto <a href="https://willowy-pika-01d7b7.netlify.app/" target="_blank">clicando aqui:</a>
 
 <h1>Uma prévia do que temos aqui:</h1>
 
 <h2>Pagina inicial:</h2>
 
-![new home](https://user-images.githubusercontent.com/73480168/203646187-ec2ca78e-794b-4fbd-a06d-914dbf9c08d8.png)
+![screencapture-home](https://user-images.githubusercontent.com/73480168/203664815-2f05f08b-e534-435e-8b7e-c1d693fe524e.png)
 
 <h2>Pagina de projetos:</h2>
 
