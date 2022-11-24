@@ -193,6 +193,10 @@ header {
     animation: anima-menu-mobile .6s ease-in;
 } 
 
+.mobile-menu ul .link5 {
+    animation: anima-menu-mobile .7s ease-in;
+} 
+
 @keyframes anima-menu-mobile {
     0% {
         transform: translatex(-70px);
