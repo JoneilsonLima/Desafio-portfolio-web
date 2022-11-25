@@ -49,6 +49,18 @@
     box-shadow: -12px 12px 12px rgb(0,0,0,.5);
 }
 
+.resumo-profissional {
+    padding: 30px;
+    border-radius: 9px;
+    background: #FFFFFF;
+    margin-top: 20px;
+}
+
+.resumo-profissional h4{
+    color: var(--tertiary-color);
+    padding-bottom: 10px;
+}
+
 /* Experiência */
 .experiencia-container {
     padding-top: 100px;
@@ -76,71 +88,10 @@
     text-decoration: underline;
 }
 
-/* habilidades */
-.habilidade-container {
-    padding: 100px;
-    text-align: center;
-}
-
-.habilidade-container h1 {
-    display: inline-block;
-}
-
-.habilidade-container h1::after {
-    content: '';
-    display: block;
-    width: 110px;
-    height: 2px;
-    background: #FFFFFF;
-}
-
-/* lista de habilidades */
-.lista-habilidades {
-    padding-top: 150px;
-}
-
-.lista-habilidades ul {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.lista-habilidades li:hover {
-    transition: .3s;
-}
-
-.lista-habilidades ul:has(li:hover) li:not(:hover) {
-    opacity: .6;
-    scale: .98;
-}
-
-.habilidade {
-    color: #000000;
-    border-radius: 6px;
-    height: 180px;
-    width: 160px;
-    background: #FFFFFF;
-    text-align: center;
-    font-size: .6em;
-    box-shadow: -10px 10px 10px rgb(0,0,0,.1);
-}
-
-.habilidade img {
-    width: 50%;
-    display: block;
-    margin: 20px auto;
-    padding-bottom: 33px;
-}
-
 /** MEDIA ***/
 @media (max-width: 1000px) {
     .curriculo-content {
         width: 90%;
-    }
-
-    .habilidade-container {
-        padding: 80px;
     }
 }
 
@@ -166,45 +117,11 @@
     }
 }
 
-@media (max-width: 700px) {
-    .habilidade {
-        height: 140px;
-        width: 120px;
-    }
-
-    .habilidade img {
-        padding-bottom: 18px;
-    }
-
-    .habilidade-container {
-        padding: 30px;
-    }
-}
-
-@media (max-width: 500px) {
-    .habilidade {
-        height: 110px;
-        width: 100px;
-        font-size: .5em;
-    }
-    
-    .habilidade img {
-        padding-bottom: 0px;
-    }
-}
-
-@media (max-width: 430px) {
-    .habilidade-container h1::after {
-        margin: 0 auto;
-    }
-}
-
 .js-scroll {
     opacity: 0;
     transform: translate3d(-30px, 0, 0);
     transition: .3s;
 }
-
 
 .js-scroll.ativo {
     opacity: 1;
