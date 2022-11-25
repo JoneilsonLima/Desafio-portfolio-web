@@ -152,14 +152,15 @@ textarea:focus {
     gap: 30px;
 }
 
+.contatos-formulario ul:has(li:hover) li:not(:hover) {
+    opacity: .6;
+    scale: .98;
+}
+
 .contatos-formulario li {
     width: 150px;
     height: 150px;
     transition: .3s;
-}
-
-.contatos-formulario li:hover {
-    box-shadow: -3px 3px 3px rgb(0,0,0,.2);
 }
 
 .contatos-formulario li h4 {
