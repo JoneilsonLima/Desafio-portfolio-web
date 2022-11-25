@@ -1,11 +1,17 @@
-.tecnologias-container h1 {
-    display: inline-block;
+/* Tecnologias */
+.header-habilidades {
     color: #FFFFFF;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header-habilidades h1 {
+    display: inline-block;
     font-size: 2.6em;
     padding: 60px 0;
 }
 
-.tecnologias-container h1::after {
+.header-habilidades h1::after {
     content: '';
     display: block;
     width: 120px;
@@ -14,12 +20,15 @@
 }
 
 @media (max-width: 586px) {
-    .tecnologias-container h1::after {
+    .header-habilidades h1::after {
         margin: 0 auto;
     }
 }
 
-/* Tecnologias */
+.header-habilidades p {
+    font-size: 1.2em;
+}
+
 .tecnologias-container {
     width: 100%;
     background: var(--primary-color);
@@ -141,7 +150,6 @@
     .tecnologias-container h1 {
         padding: 30px 0;
     }
-    
 }
 
 @media(max-width: 800px) {

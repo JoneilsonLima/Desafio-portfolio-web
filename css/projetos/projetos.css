@@ -97,12 +97,27 @@
     padding: 50px 0 0 40px;
 }
 
-.link-ver-mais {
-    color: var(--tertiary-color);
-    text-decoration: underline;
-    padding: 40px 0 0 40px ;
+button.link-ver-mais {
+    background: var(--tertiary-color);
+    cursor: pointer;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0 0 30px;
+    padding: 12px 16px;
+    color: #FFFFFF;
+    font-weight: bold;
     display: inline-block;
 }
+
+button.link-ver-mais:hover {
+    color: var(--tertiary-color);
+    background: #FFFFFF;
+    border: 1px solid var(--tertiary-color);
+    padding: 11px 15px;
+}
+
+
 
 /* IMG PROJETOS */
 .img-projetos {
