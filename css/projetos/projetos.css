@@ -157,6 +157,7 @@ button.link-ver-mais:hover {
 
 .bg-art-projeto {
     background: url('/img/art-bootstrap5.png');
+    background-size: cover;
 }
 
 .bg-Wildbeast-projeto {
