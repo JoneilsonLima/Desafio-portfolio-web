@@ -108,6 +108,7 @@ button.link-ver-mais {
     color: #FFFFFF;
     font-weight: bold;
     display: inline-block;
+    transition: background .3s;
 }
 
 button.link-ver-mais:hover {

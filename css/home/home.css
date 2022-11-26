@@ -125,6 +125,7 @@
     border-radius: 30px;
     color: #FFFFFF;
     font-weight: 600;
+    transition: background .3s;
 }
 
 .profile-details-links a:hover {

@@ -67,6 +67,7 @@ textarea,
     color: #FFFFFF;
     width: 150px;
     padding: 12px 14px;
+    transition: background .3s;
 }
 
 .formulario button:hover {
