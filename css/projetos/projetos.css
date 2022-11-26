@@ -130,7 +130,7 @@ button.link-ver-mais:hover {
     background: url('/img/joetech.png');
     background-position: center;
     background-size: cover;
-    box-shadow: -12px 12px 12px rgb(0, 0, 0, .4);
+    box-shadow: -12px 12px 12px rgb(0, 0, 0, .3);
     border-radius: 8px;
     margin: 40px -40px 0 0;
     transition: .3s;
@@ -140,7 +140,7 @@ button.link-ver-mais:hover {
 @keyframes animaProjeto {
     0% {
         transform: translateY(-8px);
-        box-shadow: -12px 12px 12px rgb(0, 0, 0, .7);
+        box-shadow: -12px 12px 12px rgb(0, 0, 0, .6);
 
     }
     100% {
