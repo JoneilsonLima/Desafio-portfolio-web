@@ -55,6 +55,18 @@ export default function initModal() {
                 })
             }
             linkProjeto4.addEventListener('click', openProjeto4);
+
+            const linkProjeto5 = document.querySelector('.link-projeto5');
+            const projeto5 = document.querySelector('.projeto5');
+
+            function openProjeto5() {
+                projeto5.classList.add('display-flex-modal')
+
+                closedModal[4].addEventListener('click', () => {
+                    projeto5.classList.remove('display-flex-modal')
+                })
+            }
+            linkProjeto5.addEventListener('click', openProjeto5);
         }
         modal();
     }

@@ -168,6 +168,11 @@ button.link-ver-mais:hover {
     background-size: cover;
 }
 
+.bg-bikcraft-projeto {
+    background: url('/img/bikcraft.png');
+    background-size: cover;
+}
+
 @media (max-width: 1000px) {
     .info-projetos {
         display: block;
