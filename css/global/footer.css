@@ -3,13 +3,14 @@
     width: 100%;
     background: #FFFFFF;
     position: relative;
-    /*top: 125px;*/
     border-bottom: 2px solid #d2d2d2;
     padding: 20px 30px;
 }
 
 .footer-content {
     display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
     height: 100px;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +30,15 @@
     font-size: .9em;
 }
 
+.footer-social a {
+    color: #111111;
+    transition: .2s;
+}
+
+.footer-social a:hover {
+    opacity: .7;
+}
+
 .footer-contatos {
     text-align: center;
     line-height: 20px;
@@ -41,11 +51,6 @@
 .footer-links img{
     width: 20px;
     margin: 10px 10px;
-}
-
-.footer-links img:hover {
-    border-bottom: 2px solid var(--tertiary-color);
-    width: 18px;
 }
 
 /*** Media ****/
