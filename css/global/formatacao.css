@@ -10,6 +10,19 @@ body {
     padding-top: 5.75rem;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;            
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #ebebeb;      
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--tertiary-color);    
+    border-radius: 20px;  
+  }
+
 ul {
     list-style: none;
 }
