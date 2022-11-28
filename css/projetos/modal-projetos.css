@@ -36,7 +36,7 @@
 
 @keyframes animaModalContent {
     0% {
-        transform: translatey(-70px);
+        transform: translatey(-90px);
     }
     100% {
         transform: translatey(0px);
