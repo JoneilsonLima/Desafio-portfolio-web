@@ -40,3 +40,13 @@ a {
 .icone {
     width: 20px;
 }
+
+i {
+    font-size: 25px;
+    color: #111111;
+    transition: .3s;
+}
+
+i:hover {
+    color: var(--tertiary-color);
+}

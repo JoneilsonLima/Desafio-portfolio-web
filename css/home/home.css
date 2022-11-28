@@ -45,19 +45,10 @@
     height: 85px;
     background: #FFFFFF;
     border-radius: 0 0 8px 8px;
-    color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-}
-
-.profile-links img {
-    width: 30px;
-}
-
-.profile-links img:hover {
-    border-bottom: 2px solid var(--tertiary-color);
 }
 
 .profile-foto {
@@ -125,7 +116,7 @@
     border-radius: 30px;
     color: #FFFFFF;
     font-weight: 600;
-    transition: background .3s;
+    transition: background, color .8s;
 }
 
 .profile-details-links a:hover {
@@ -230,7 +221,7 @@
 
 @media (max-width: 400px){
     .main-content {
-        width: 340px;
+        width: 335px;
     }
 }
 

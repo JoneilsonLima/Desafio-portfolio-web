@@ -35,22 +35,23 @@
     transition: .2s;
 }
 
-.footer-social a:hover {
-    opacity: .7;
-}
-
 .footer-contatos {
     text-align: center;
     line-height: 20px;
 }
 
-.footer-contatos p:first-child {
-    font-weight: 600;
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
-.footer-links img{
-    width: 20px;
-    margin: 10px 10px;
+.footer-links i {
+    font-size: 18px;
+}
+
+.footer-contatos p:first-child {
+    font-weight: 600;
 }
 
 /*** Media ****/
