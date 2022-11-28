@@ -17,8 +17,12 @@
     padding-bottom: 50px;
 }
 
+.header-projetos img {
+    transition: .2s;
+}
+
 .header-projetos img:hover {
-    width: 18px;
+    opacity: .5;
 }
 
 .header-projetos h1{

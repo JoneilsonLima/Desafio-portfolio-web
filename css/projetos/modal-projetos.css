@@ -85,6 +85,7 @@ video {
 
 .info-modal li a {
     color: white;
+    text-decoration: underline;
 }
 
 .info-modal h2 {
@@ -192,7 +193,7 @@ video {
     }
 
     .modal-container {
-        padding: 330px 0px;
+        padding: 325px 0px;
     }
 
     .modal-link a {
