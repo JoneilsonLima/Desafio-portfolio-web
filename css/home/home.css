@@ -51,6 +51,10 @@
     gap: 30px;
 }
 
+.profile-links i:hover {
+    margin-top: -4px;
+}
+
 .profile-foto {
     text-align: center;
     font-size: 1.2em;
