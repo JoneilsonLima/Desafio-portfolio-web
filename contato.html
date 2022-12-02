@@ -30,6 +30,7 @@
                 <li><a href="habilidades.html">HABILIDADES</a></li>
                 <li><a href="projetos.html">PROJETOS</a></li>
                 <li><a class="active-link" href="#">CONTATO</a></li>
+                <li><a href="mensagens.html">MENSAGENS</a></li>
             </ul>
             <div class="menu-mobile-icon">
                 <button class="icon-open">
@@ -48,6 +49,7 @@
                 <li><a class="link3" href="habilidades.html">HABILIDADES</a></li>
                 <li><a class="link4" href="projetos.html">PROJETOS</a></li>
                 <li><a class="active-link-mobile link5" href="#">CONTATO</a></li>
+                <li><a class="link5" href="mensagens.html">MENSAGENS</a></li>
             </ul>
         </div>
     </header>
@@ -61,18 +63,21 @@
                 <div class="flex-form">
                     <div>
                         <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" required>
+                        <input type="text" name="nome" id="nome">
                     </div>
                     <div>
                         <label for="sobrenome">Sobrenome</label>
-                        <input type="text" name="sobrenome" id="sobrenome" required>
+                        <input type="text" name="sobrenome" id="sobrenome">
                     </div>
                 </div>
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email">
                 <label for="mensagem">Mensagem</label>
                 <textarea name="mensagem" id="mensagem" cols="30" rows="7"></textarea>
-                <button type="submit">Enviar</button>
+                <div class="form-button">
+                    <button onclick="salvar()">Enviar</button>
+                    <a href="mensagens.html">Ver Histórico</a>
+                </div>
             </form>
         </div>
         <div class="contatos-formulario">
@@ -135,6 +140,7 @@
     <!---------  FIM FOOTER ---------->
 
     <script type="module" src="js/index.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>

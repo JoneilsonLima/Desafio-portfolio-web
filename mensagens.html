@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Título</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/img/ícones/JP-icon.svg" type="image/x-icon">
+    <title>Portfólio - Joneilson Pereira</title>
+    <!-- Estilo css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+
+    <!---------  INÍCIO HEADER ---------->
+    <header class="header-container">
+      <nav class="header-content">
+        <div class="logo">
+          <h1>Joneilson Pereira</h1>
+          <span>/ DEV FRONT-END</span>
+        </div>
+        <ul class="nav-header">
+          <li><a href="index.html">SOBRE MIM</a></li>
+          <li><a href="curriculo.html">CURRICULO</a></li>
+          <li><a href="habilidades.html">HABILIDADES</a></li>
+          <li><a href="projetos.html">PROJETOS</a></li>
+          <li><a href="contato.html">CONTATO</a></li>
+          <li><a class="active-link" href="#">MENSAGENS</a></li>
+        </ul>
+        <div class="menu-mobile-icon">
+          <button class="icon-open">
+            <img src="/img/ícones/menu.svg" alt="">
+          </button>
+          <button class="menu-closed">
+            <img src="/img/ícones/close.svg" alt="">
+          </button>
+        </div>
+      </nav>
+
+      <div class="mobile-menu">
+        <ul>
+          <li><a class="link1" href="index.html">SOBRE MIM</a></li>
+          <li><a class="link2" href="curriculo.html">CURRICULO</a></li>
+          <li><a class="link3" href="habilidades.html">HABILIDADES</a></li>
+          <li><a class="link4" href="projetos.html">PROJETOS</a></li>
+          <li><a class="link5" href="contato.html">CONTATO</a></li>
+          <li><a class="active-link-mobile link5" href="mensagens.html">MENSAGENS</a></li>
+        </ul>
+      </div>
+    </header>
+    <!---------  FIM HEADER ---------->
+
+    <!---------  INÍCIO MENSAGEM ---------->
+    <section class="mensagem-container">
+      <h1>Histórico de mensagens</h1>
+      <div class="mensagem-content">
+        <div class="box-carregar-historico">
+          <button class="button-mensagem" onclick="mostrar()">Carregar Histórico</button>
+        </div>
+    
+        <div class="content-msg">
+          <ul class="nova-msg"></ul>
+        </div>
+
+        <div class="box-limpar-mensagem">
+          <button class="button-mensagem" onclick="limpar()">Limpar</button>
+        </div>
+      </div>
+    </section>
+    <!---------  FIM MENSAGEM ---------->
+
+
+    <!---------  INÍCIO FOOTER ---------->
+    <footer class="footer-container">
+      <div class="footer-content">
+        <div class="copy">
+          <P>&copy; 2022</p>
+          <p>De Joneilson Pereira.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="footer-social">
+          <div class="footer-contatos">
+            <p>Email</p>
+            <a href="mailto:joneilson84@gmail.com">joneilson84@gmail.com</a>
+          </div>
+          <div class="footer-contatos">
+            <p>Celular</p>
+            <a href="tel:98996198166">(98) 9 9619-8166</a>
+          </div>
+          <div class="footer-contatos">
+            <p>Redes Sociais</p>
+            <div class="footer-links">
+              <a href="https://www.linkedin.com/in/joneilson-pereira-92b378161/" target="_blank"><i
+                  class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/joneilsonlima" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!---------  FIM FOOTER ---------->
+
+    <script type="module" src="/js/index.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+
+  </html>
