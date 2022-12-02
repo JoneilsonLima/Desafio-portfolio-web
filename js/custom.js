@@ -32,3 +32,39 @@ function limpar() {
 
 
 
+function botaoHandler(event){
+    event.preventDefault()
+    console.log("Botão Clicado!")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*** MENSAGEM SALVA ***/
+const botaoEnviar = document.querySelector("#alerta-mensagem");
+const divMessage = document.querySelector(".alert");
+
+const msg = "Mensagem Salva";
+
+function ativarMensagem(msg) {
+    const message = document.createElement('div');
+    message.classList.add('mensagem-salva')
+    message.innerText = msg;
+    divMessage.appendChild(message)
+
+    setTimeout(() => {
+        message.style.display = "none";
+    }, 3000);
+}
+
+botaoEnviar.addEventListener("click", () => {
+    ativarMensagem(msg);
+});

@@ -57,8 +57,11 @@
 
     <!---------  INÍCIO FORMULÁRIO ---------->
     <section class="formulario-container">
+        <div class="alert"></div>
+
+
         <div class="formulario-content">
-            <h1>Contato</h1>
+            <h1 class="js-scroll">Contato</h1>
             <form class="formulario" action="">
                 <div class="flex-form">
                     <div>
@@ -75,7 +78,7 @@
                 <label for="mensagem">Mensagem</label>
                 <textarea name="mensagem" id="mensagem" cols="30" rows="7"></textarea>
                 <div class="form-button">
-                    <button onclick="salvar()">Enviar</button>
+                    <button id="alerta-mensagem" type="button" onclick="salvar()">Enviar</button>
                     <a href="mensagens.html">Ver Histórico</a>
                 </div>
             </form>
