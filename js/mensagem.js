@@ -51,6 +51,10 @@ function initAlertaMensagemSalva() {
         setTimeout(() => {
             message.style.display = "none";
         }, 3000);
+
+        setTimeout(()=> {
+            window.location.reload(true);
+        },3200)
     }
 
     botaoEnviar.addEventListener("click", () => {
