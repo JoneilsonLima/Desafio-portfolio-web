@@ -54,7 +54,7 @@ function initAlertaMensagemSalva() {
 
         setTimeout(()=> {
             window.location.reload(true);
-        },3200)
+        },3000)
     }
 
     botaoEnviar.addEventListener("click", () => {
