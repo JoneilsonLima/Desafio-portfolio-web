@@ -29,12 +29,6 @@ function limpar() {
     window.location.reload(true);
 }
 
-function botaoHandler(event) {
-    event.preventDefault()
-    console.log("Botão Clicado!")
-}
-
-
 /*** MENSAGEM SALVA ***/
 function initAlertaMensagemSalva() {
     const botaoEnviar = document.querySelector("#alerta-mensagem");
