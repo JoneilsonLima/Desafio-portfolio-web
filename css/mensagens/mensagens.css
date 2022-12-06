@@ -159,3 +159,95 @@
         right: 60px;
     }
 }
+
+
+
+/****** Modal Mensagem ******/
+
+.modal-mensagem {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 355px 30px;
+    backdrop-filter: blur(2px);
+    z-index: 2000;
+    animation: animaModal .3s ease-in;
+}
+
+.modal-mensagem-content {
+    width: 70%;
+    min-height: 100%;
+    padding: 30px;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: -10px 10px 12px rgb(0,0,0,.3);
+    animation: animaModalContent .3s ease-in;
+    color: #FFFFFF;
+}
+
+.modal-mensagem-content h1 {
+    padding: 20px 0;
+}
+
+.header-mensagem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-mensagem span {
+    text-decoration: underline;
+}
+
+.modal-mensagem-content i {
+    color: var(--tertiary-color);
+    cursor: pointer;
+}
+
+.div-button-mensagem {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.div-button-mensagem button {
+    padding: 12px 50px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: var(--tertiary-color);
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.hiden {
+    display: none;
+}
+@media (max-width: 600px) {
+    .div-button-mensagem {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .modal-mensagem-content h1 {
+        font-size: 1.2em;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .modal-mensagem-content {
+        width: 90%;
+    }
+
+    .div-button-mensagem {
+        margin-top: 30px;
+        gap: 30px;
+    }
+}

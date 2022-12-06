@@ -46,9 +46,9 @@ function initAlertaMensagemSalva() {
             message.style.display = "none";
         }, 3000);
 
-        setTimeout(()=> {
+        setTimeout(() => {
             window.location.reload(true);
-        },3000)
+        }, 3000)
     }
 
     botaoEnviar.addEventListener("click", () => {
@@ -56,3 +56,29 @@ function initAlertaMensagemSalva() {
     });
 }
 initAlertaMensagemSalva()
+
+
+
+
+
+
+
+
+
+
+
+/**** Modal Mensagem *****/
+
+const buttonApagarHistorico = document.querySelector('.button-apagar')
+const modalMensagem = document.querySelector('.modal-mensagem');
+const closedModalMensagem = document.querySelectorAll('.closed-modal-mensagem');
+
+closedModalMensagem.forEach((item) => {
+    item.addEventListener('click', () => {
+        modalMensagem.classList.add('hiden')
+    })
+})
+
+buttonApagarHistorico.addEventListener('click', () => {
+    modalMensagem.classList.remove('hiden')
+})
