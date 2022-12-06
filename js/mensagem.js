@@ -57,19 +57,10 @@ function initAlertaMensagemSalva() {
 }
 initAlertaMensagemSalva()
 
-
-
-
-
-
-
-
-
-
-
 /**** Modal Mensagem *****/
-
-const buttonApagarHistorico = document.querySelector('.button-apagar')
+const indexMensage = document.querySelector('.index-mensagem');
+if(indexMensage) {
+    const buttonApagarHistorico = document.querySelector('.button-apagar')
 const modalMensagem = document.querySelector('.modal-mensagem');
 const closedModalMensagem = document.querySelectorAll('.closed-modal-mensagem');
 
@@ -82,3 +73,5 @@ closedModalMensagem.forEach((item) => {
 buttonApagarHistorico.addEventListener('click', () => {
     modalMensagem.classList.remove('hiden')
 })
+}
+
