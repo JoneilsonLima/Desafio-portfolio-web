@@ -1,25 +1,41 @@
-let arr = [];
 function salvar() {
-    if (localStorage.listaMensagem) {
-        arr = JSON.parse(localStorage.getItem('listaMensagem'))
+    let nome_usuario = document.querySelector("#nome_usuario").value;
+    let email_usuario = document.querySelector("#email_usuario").value;
+    let mensagem_usuario = document.querySelector('#mensagem').value;
+
+    let usuarios = new Array();
+
+    if(localStorage.hasOwnProperty("usuarios")) {
+        usuarios = JSON.parse(localStorage.getItem("usuarios"));
     }
 
-    let nome = document.querySelector('#mensagem').value;
-    arr.push(nome);
-    nome = '';
-    localStorage.listaMensagem = JSON.stringify(arr);
+    usuarios.push({mensagem_usuario, nome_usuario, email_usuario});
+
+    localStorage.setItem("usuarios", JSON.stringify(usuarios))
 }
 
 function mostrar() {
+    let usuarios;
     let result = document.querySelector('.nova-msg');
     result.innerHTML = '';
-    if (localStorage.listaMensagem) {
-        arr = JSON.parse(localStorage.getItem('listaMensagem'))
+    if (localStorage.usuarios) {
+        usuarios = JSON.parse(localStorage.getItem('usuarios'))
     }
 
-    for (let i in arr) {
+    for (let i in usuarios) {
         let p = document.createElement("li");
-        p.innerHTML = arr[i];
+        let reltadoNome = document.createElement('h3');
+        reltadoNome.innerText = `Nome: ${usuarios[i].nome_usuario}`;
+        let resultadoEmail = document.createElement('h2')
+        resultadoEmail.innerText = `E-mail: ${usuarios[i].email_usuario}`;
+        let resultadoMensagem = document.createElement('p')
+        resultadoMensagem.innerText = usuarios[i].mensagem_usuario;
+
+
+        
+        p.appendChild(resultadoEmail);
+        p.appendChild(reltadoNome);
+        p.appendChild(resultadoMensagem);
         result.append(p);
     }
 }
@@ -74,4 +90,3 @@ buttonApagarHistorico.addEventListener('click', () => {
     modalMensagem.classList.remove('hiden')
 })
 }
-
