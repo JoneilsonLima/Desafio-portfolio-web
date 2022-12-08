@@ -222,6 +222,14 @@
     border-radius: 20px;
     border: none;
     font-weight: bold;
+    transition: color, background-color .3s;
+}
+
+.div-button-mensagem button:hover {
+    background-color: #FFFFFF;
+    border: 2px solid var(--tertiary-color);
+    color: var(--tertiary-color);
+    padding: 10px 48px;
 }
 
 .hiden {

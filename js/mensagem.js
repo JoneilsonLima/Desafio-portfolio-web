@@ -29,7 +29,7 @@ function limpar() {
     window.location.reload(true);
 }
 
-/*** MENSAGEM SALVA ***/
+/*** ALERTA DE MENSAGEM SALVA ***/
 function initAlertaMensagemSalva() {
     const botaoEnviar = document.querySelector("#alerta-mensagem");
     const divMessage = document.querySelector(".alert");
@@ -44,11 +44,11 @@ function initAlertaMensagemSalva() {
 
         setTimeout(() => {
             message.style.display = "none";
-        }, 3000);
+        }, 2500);
 
         setTimeout(() => {
             window.location.reload(true);
-        }, 3000)
+        }, 2500)
     }
 
     botaoEnviar.addEventListener("click", () => {
