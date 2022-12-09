@@ -1,4 +1,6 @@
 function salvar() {
+    let formulario = document.querySelector('.formulario');
+
     let nome_usuario = document.querySelector("#nome_usuario").value;
     let email_usuario = document.querySelector("#email_usuario").value;
     let mensagem_usuario = document.querySelector('#mensagem').value;
@@ -12,6 +14,7 @@ function salvar() {
     usuarios.push({mensagem_usuario, nome_usuario, email_usuario});
 
     localStorage.setItem("usuarios", JSON.stringify(usuarios))
+    formulario.reset()
 }
 
 function mostrar() {
@@ -23,7 +26,7 @@ function mostrar() {
     }
 
     for (let i in usuarios) {
-        let p = document.createElement("li");
+        let criandoListas = document.createElement("li");
         let reltadoNome = document.createElement('h3');
         reltadoNome.innerText = `Nome: ${usuarios[i].nome_usuario}`;
         let resultadoEmail = document.createElement('h2')
@@ -31,12 +34,10 @@ function mostrar() {
         let resultadoMensagem = document.createElement('p')
         resultadoMensagem.innerText = usuarios[i].mensagem_usuario;
 
-
-        
-        p.appendChild(resultadoEmail);
-        p.appendChild(reltadoNome);
-        p.appendChild(resultadoMensagem);
-        result.append(p);
+        criandoListas.appendChild(resultadoEmail);
+        criandoListas.appendChild(reltadoNome);
+        criandoListas.appendChild(resultadoMensagem);
+        result.append(criandoListas);
     }
 }
 
@@ -45,7 +46,7 @@ function limpar() {
     window.location.reload(true);
 }
 
-/*** ALERTA DE MENSAGEM SALVA ***/
+// ALERTA DE MENSAGEM SALVA 
 function initAlertaMensagemSalva() {
     const botaoEnviar = document.querySelector("#alerta-mensagem");
     const divMessage = document.querySelector(".alert");
@@ -61,10 +62,6 @@ function initAlertaMensagemSalva() {
         setTimeout(() => {
             message.style.display = "none";
         }, 2500);
-
-        setTimeout(() => {
-            window.location.reload(true);
-        }, 2500)
     }
 
     botaoEnviar.addEventListener("click", () => {

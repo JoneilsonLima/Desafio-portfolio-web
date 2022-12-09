@@ -83,9 +83,9 @@ textarea {
     margin-bottom: 3rem;
 }
 
-label[for="nome"]::after,
+label[for="nome_usuario"]::after,
 label[for="sobrenome"]::after,
-label[for="email"]::after {
+label[for="email_usuario"]::after {
     content: ' *';
     color: var(--tertiary-color);
 }
