@@ -1,5 +1,5 @@
 // Salvar dados do formulário
-function salvar() {
+function salvarMensagem() {
     let formulario = document.querySelector('.formulario');
 
     let nome_usuario = document.querySelector("#nome_usuario").value;
@@ -19,7 +19,7 @@ function salvar() {
 }
 
 // Carregar dados do formulário
-function mostrar() {
+function mostrarHistorico() {
     let usuarios;
     let result = document.querySelector('.nova-msg');
     result.innerHTML = '';
@@ -44,7 +44,7 @@ function mostrar() {
 }
 
 // Limpar dados do local storage 
-function limpar() {
+function limparHistorico() {
     localStorage.clear();
     window.location.reload(true);
 }
@@ -71,22 +71,25 @@ function initAlertaMensagemSalva() {
         ativarMensagem(msg);
     });
 }
-initAlertaMensagemSalva()
+initAlertaMensagemSalva();
 
 // Modal Mensagem
-const indexMensage = document.querySelector('.index-mensagem');
-if (indexMensage) {
-    const buttonApagarHistorico = document.querySelector('.button-apagar')
-    const modalMensagem = document.querySelector('.modal-mensagem');
-    const closedModalMensagem = document.querySelectorAll('.closed-modal-mensagem');
+function initModalMensagem() {
+    const indexMensage = document.querySelector('.index-mensagem');
+    if (indexMensage) {
+        const buttonApagarHistorico = document.querySelector('.button-apagar')
+        const modalMensagem = document.querySelector('.modal-mensagem');
+        const closedModalMensagem = document.querySelectorAll('.closed-modal-mensagem');
 
-    closedModalMensagem.forEach((item) => {
-        item.addEventListener('click', () => {
-            modalMensagem.classList.add('hiden')
+        closedModalMensagem.forEach((item) => {
+            item.addEventListener('click', () => {
+                modalMensagem.classList.add('hiden')
+            })
         })
-    })
 
-    buttonApagarHistorico.addEventListener('click', () => {
-        modalMensagem.classList.remove('hiden')
-    })
+        buttonApagarHistorico.addEventListener('click', () => {
+            modalMensagem.classList.remove('hiden')
+        })
+    }
 }
+initModalMensagem();
